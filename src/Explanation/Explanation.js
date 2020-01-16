@@ -2,11 +2,20 @@ import React, { Component } from 'react';
 
 export default class Explanation extends Component {
     render() {
-        constructor(props) {
-            super(props);
-            this.state = {
-                kitchen: ''
+        // constructor(props){
+        //     super(props);
+        //     this.state = {
+        //         kitchen: '',
+        //         recipe: ''
 
+        //     }
+        // }
+
+        function handleSubmit(event) {
+            event.preventDefault();
+
+            const result = {
+                recipe: this.recipe
             }
         }
         return (

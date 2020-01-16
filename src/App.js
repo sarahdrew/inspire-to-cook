@@ -2,6 +2,8 @@ import React from 'react';
 import { Route } from "react-router-dom";
 import Nav from './Nav/Nav'
 import Explanation from './Explanation/Explanation';
+import './App.css'
+
 
 function App() {
   return (
