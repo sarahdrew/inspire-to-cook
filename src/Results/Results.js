@@ -12,3 +12,8 @@ export default class Results extends Component {
 }
 
 //http://www.recipepuppy.com/about/api/
+// Optional Parameters:
+// i : comma delimited ingredients
+// q : normal search query
+// p : page
+// format=xml : if you want xml instead of json
